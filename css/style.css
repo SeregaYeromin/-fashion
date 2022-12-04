@@ -1038,17 +1038,6 @@ body {
     display: flex;
     justify-content: center;
 }
-.mobile-content__box {
-    position: relative;
-    width: 400px;
-}
-.mobile-img {
-    position: absolute;
-    z-index: 1;
-}
-.mobile__view {
-    z-index: 2;
-}
 @media (max-width: 1720px) {
     .mobile-box {
         width: 100%;
