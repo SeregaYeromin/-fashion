@@ -117,7 +117,7 @@ body {
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 6%;
+        top: 5%;
         right: 6%;
         width: 26px;
         height: 26px;
@@ -189,7 +189,7 @@ body {
 }
 @media (max-width: 900px) {
     .menu__btn {
-        top: 6%;
+        top: 5%;
     }
 }
 .wrapper__section1 {
