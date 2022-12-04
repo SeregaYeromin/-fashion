@@ -155,8 +155,7 @@ body {
         text-align: center;
         background-color: #222425;
         box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-        border-radius: 10px;
-        opacity: 0.8;
+        border-radius: 0px 0px 10px 10px;
         z-index: 2;
         gap: 10px;
     }
@@ -190,7 +189,7 @@ body {
 }
 @media (max-width: 900px) {
     .menu__btn {
-        top: 9%;
+        top: 6%;
     }
 }
 .wrapper__section1 {
