@@ -24,6 +24,7 @@ body {
     justify-content: space-between;
     width: 1720px;
     height: 62px;
+    position: relative;
 }
 .wrapper__logo {
     display: flex;
@@ -117,7 +118,7 @@ body {
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 5%;
+        top: 60%;
         right: 6%;
         width: 26px;
         height: 26px;
@@ -145,7 +146,6 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        position: relative;
         visibility: hidden;
         top: 60px;
         width: 80%;
@@ -155,7 +155,8 @@ body {
         text-align: center;
         background-color: #222425;
         box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-        border-radius: 0px 0px 10px 10px;
+        border-radius: 10px;
+        opacity: 0.8;
         z-index: 2;
         gap: 10px;
     }
@@ -189,7 +190,7 @@ body {
 }
 @media (max-width: 900px) {
     .menu__btn {
-        top: 5%;
+        top: 60%;
     }
 }
 .wrapper__section1 {
