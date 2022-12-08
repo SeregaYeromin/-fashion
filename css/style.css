@@ -646,7 +646,7 @@ html, body{
     display: flex;
     justify-content: space-between;
     margin-top: 90px;
-    padding: 0px 100px;
+    padding: 0px 120px 0px 80px;
 }
 .sale-text {
     width: 593.23px;
